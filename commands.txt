@@ -1,19 +1,47 @@
 ls 
 ls -a
 pwd
-mkdir
-touch
-code
-start
-rm
-rm -r 
+mkdir "folder name"
+touch "file name"
+code "file name"
+start "file name"
+rm "file name"
+rm -r "directory/folder name"
 cd
 cd ..
 
 
 git init
 git status
-git add 
+git add "file name"
 git add .
-git rm --cached 
-git commit
+git rm --cached "file name"
+git commit -m 
+(if forgot to use -m:
+write the name on top of the vim screen,above the #screen
+press esc
+write :wq(save changes and exit) and enter
+or 
+you can just esc and write :!q(cancel everything and quit without saving)
+)
+git config --global user.name ""
+git config --global user.email ""(write without global flag for local)
+git log
+git --no-pager log
+git diff "file name"
+(if stuck in git's viewer(called Less) if no pager is not typed,just press q)
+git checkout "file name"
+
+git remote add origin https://github.com/Utkarsh1Upadhyay/git_commands.git
+git branch -M main
+git push -u origin main
+
+touch .gitignore
+git clone "link"
+git branch "branch name"
+git checkout "branch name"
+git commit -a "file name"
+git push
+git merge "branch name"
+
+
