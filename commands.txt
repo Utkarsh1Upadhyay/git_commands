@@ -1,0 +1,19 @@
+ls 
+ls -a
+pwd
+mkdir
+touch
+code
+start
+rm
+rm -r 
+cd
+cd ..
+
+
+git init
+git status
+git add 
+git add .
+git rm --cached 
+git commit
