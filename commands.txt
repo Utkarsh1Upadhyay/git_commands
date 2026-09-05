@@ -39,9 +39,11 @@ git push -u origin main
 touch .gitignore
 git clone "link"
 git branch "branch name"
+git branch
 git checkout "branch name"
 git commit -a "file name"
 git push
 git merge "branch name"
+
 
 
