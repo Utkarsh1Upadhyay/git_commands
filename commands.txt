@@ -15,7 +15,8 @@ git init
 git status
 git add "file name"
 git add .
-git rm --cached "file name"
+git rm --cached "file name"(Remove file fromm staging area,Stop git from tracking this file entirely)
+git restore --staged "file name"(Remove file fromm staging area,Undo a git add,tracked but unstaged)
 git commit -m 
 (if forgot to use -m:
 write the name on top of the vim screen,above the #screen
